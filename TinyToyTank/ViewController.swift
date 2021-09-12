@@ -25,4 +25,24 @@ class ViewController: UIViewController {
     // Add the box anchor to the scene
     arView.scene.anchors.append(tankAnchor!)
   }
+  
+  // MARK: - IBActions
+  @IBAction func tankRightPressed(_ sender: Any) {
+  }
+  
+  @IBAction func tankForwardPressed(_ sender: Any) {
+  }
+  
+  @IBAction func tankLeftPressed(_ sender: Any) {
+  }
+  
+  @IBAction func turretRightPressed(_ sender: Any) {
+  }
+  
+  @IBAction func cannonFirePressed(_ sender: Any) {
+  }
+  
+  @IBAction func turretLeftPressed(_ sender: Any) {
+  }
+  
 }
