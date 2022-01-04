@@ -16,6 +16,7 @@ class ViewController: UIViewController {
   // MARK: - Variables
   var tankAnchor: TinyToyTank._TinyToyTank?
   var isActionPlaying: Bool = false
+  var isTwoEditing: Bool = true
   
   
   override func viewDidLoad() {
